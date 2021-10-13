@@ -3,6 +3,17 @@
 <html>
 	<head>
 		<title>D Bayani's Personal Webpage</title>
+		<style>
+                    html {
+                        background-image: 
+		            linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('background.png');
+                    }
+
+                    * {  
+                        background-image: 
+                            linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+                    }
+                </style>
 	</head>
 	<h1>D Bayani's Personal Webpage </h1>
         <body>
@@ -11,7 +22,7 @@
     <a id="myORCIDiDInfo" href="https://orcid.org/0000-0001-5811-6792">ORCID id: 0000-0001-5811-6792</a>
 </p>
 <p>
-Page last modified on: <p id="presentDataModified"></p>
+Page last modified on: <p id="presentDataModified"><style> #presentDataModified { background: linear-gradient(rgba(255,255,0,0.7), rgba(255,255,0,0.7)); } </style>--If you are seeing this text instead of the date this page was last modified, then your browser is not allowing scripts to run.--</p>
 </p>
 </div>
 
@@ -22,14 +33,17 @@ The primary intent of this page (at least as it currently stands) is to provide 
 other online outlets of notable relevance to my activity. Major, stable web addresses that
 list non-trivial subsets of my materials can be found on <a href="#myORCIDiDInfo">my above-mentioned ORCID page</a>;
 those websites will not be re-listed here in order to minimize repetition and maintain organization.
-Other items that stand alone or would otherwise crowd <a href="#myORCIDiDInfo">my ORCID page</a> are
-listed here - they will be referred to as <a href="#additionalMaterials">"additional materials"</a>.
+Other <em>pointers to content</em> that stand alone or would otherwise crowd <a href="#myORCIDiDInfo">my ORCID page</a> are
+listed here - they will be referred to as <a href="#additionalMaterials">"additional materials"</a>. References
+to <em>additional accounts</em> belonging to me that <em>lack substantive content</em>
+can be found in the section 
+<a href="#publicallyVisibleAccountsOfLittleRelavence">"publicly visible online accounts of little relevance"</a>.
 </p>
 <p>
 I do not claim that the collection of materials referenced 
 here is complete or comprehensive. In fact, I suspect that online content which is highly unstable will
 not be referenced here, at least not frequently. Further, the focus of this page is to list material that
-is already publicly accessible, and thus links to content intended for a limited audience will not
+is already publicly accessible, and thus, links to content intended for a limited audience will not
 be provided.
 </p>
 </section>
@@ -59,9 +73,36 @@ be provided.
 
 </section>
 
+<section>
+	<h2 id="publicallyVisibleAccountsOfLittleRelavence">Publicly Visible Online Accounts of Little Relevance</h2>
+
+	<p>
+	As the title suggests, the links in this section offer little noteworthy to visit. At the time being, 
+        I have no intention of changing that fact. The accounts listed here exist for a variety of reasons,
+	such as to allow interested parties to more easily locate me (me - as opposed to someone else with a
+	similar name) online. Here, I refrain from expounding the rationales beyond that.
+	</p>
+
+	<ul>
+		<li>
+			<a href="https://www.linkedin.com/in/d-bayani">LinkedIn Account</a>
+			<ul>
+				<li>
+					This account only presents my name, reference to 
+					<a href="#myORCIDiDInfo">my ORCID identifier</a>,
+					and a vague reference to my Carnegie Mellon University education
+					(which is already listed on ORCID).
+				</li>
+			</ul>
+		</li>
+	</ul>
+</section>
+
+
 <script>
 document.getElementById("presentDataModified").innerHTML = document.lastModified;
 </script>
+
 
 </body>
 
